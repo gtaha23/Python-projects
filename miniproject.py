@@ -32,11 +32,21 @@ soru3_yazı = print("Malazgirt Muharebesi ne zaman gerçekleşmiştir?")
 soru3_cevap = input("Cevap:")
 
 if soru3 == soru3_cevap:
-    print("Bu doğru! test bitti.")
+    print("Bu doğru! hadi diğer soruya geçelim.")
     a += 1
 else:
     print("Olamaz, sanırım bir hata var!")
     b += 1
+
+soru4 = "Lua"
+soru4_yazi = print("Roblox oyun motoru hangi yazılım dilini kullanmaktadır?")
+soru4_cevap = input("Cevap:")
+
+if soru4 == soru4_cevap:
+    print("Bu doğru! test bitti.")
+    a += 1
+else:
+    print("Olamaz! sanırım bir hata oldu :( ")
 
 print("Sonuçlar yükleniyor", end = "\n" )
 time.sleep(2)
